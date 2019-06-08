@@ -10,12 +10,12 @@
     <title>Wine Selector</title>
   </head>
   <body>
-     <div class="container">
-      <div class="jumbotron">
+    <div class="container">
+    <div class="jumbotron">
      <h1><strong>The right wine for you.</strong></h1>
-      </div>
+    </div>
 
-     <h3>Use the form below to learn which wine is right for you</h3>
+     <h3>Use the form below to learn which wine is right for you.</h3>
 
      <p>What color wine do you like?</p>
      <form id="color">
@@ -32,36 +32,56 @@
        <option>Italy</option>
        <option>Spain</option>
        <option>France</option>
-    </select>
+     </select>
      </form>
 
-     <p>What country do you like your wine to be from?</p>
-     <form id="country">
+     <p>What type of body do you like your wine to have?</p>
+     <form id="body">
      <select class="form-control">
-       <option>Italy</option>
-       <option>Spain</option>
-       <option>France</option>
-    </select>
+       <option>Light</option>
+       <option>Medium</option>
+       <option>Full</option>
+     </select>
      </form>
 
-     <p>What country do you like your wine to be from?</p>
-     <form id="country">
+     <p>What is an attribute of wine you look for?</p>
+     <form id="attribute">
      <select class="form-control">
-       <option>Italy</option>
-       <option>Spain</option>
-       <option>France</option>
-    </select>
+       <option>Viscosity</option>
+       <option>Acidity</option>
+       <option>Tannins</option>
+     </select>
      </form>
 
-     <p>What country do you like your wine to be from?</p>
-     <form id="country">
+     <p>Since, wine and food go hand-in-hand what is your preferred food?</p>
+     <form id="food">
      <select class="form-control">
-       <option>Italy</option>
-       <option>Spain</option>
-       <option>France</option>
-    </select>
+       <option>Steak</option>
+       <option>Seafood</option>
+       <option>Roasted Vegetables</option>
+     </select>
      </form>
 
+     <button type="button" class="btn btn-info">Submit</button>
+
+     <div id="red">
+       <p>Red Wine from <strong>Rioja</strong> in Spain is the one for you. The most common grape grown in Rioja is the Tempranillo, which blends perfectly with all types of food.</p>
+
+       <p>Learn more about wines from Rioja <a href="https://en.wikipedia.org/wiki/Rioja_(wine)">here</a>.</p>
      </div>
+
+     <div id="white">
+       <p>White wine from <strong>Piedmont</strong> in Northern Italy is the one for you. With a large amount of wine production there are many different grapes to choose from. Roero Arneis is the grape you should be looking for with it's dry, mineral-driven body it's a great wine to have with or without food.</p>
+
+       <p>Learn more about wines from Piedmont <a href="https://en.wikipedia.org/wiki/Piemonte_(wine)"> here</a>.</p>
+     </div>
+
+     <div id="rose">
+       <p>Rosé from the <strong>Loire Valley</strong> in France is the perfect wine for you. Look for a rosé from Chinon in the Loire Valley made from the grape Cab-Franc, which is a high acid, earthy wine made one of the best most respected grapes in the world.</p>
+
+       <p>Learn more about wines from the Liore Valley <a href="https://en.wikipedia.org/wiki/Loire_Valley_(wine)"> here</a>.</p>
+     </div>
+
+    </div>
    </body>
   </html>

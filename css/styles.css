@@ -1,1 +1,11 @@
+body {
+  background-color: #e2e8f0;
+}
 
+.btn {
+  margin-top: 10px;
+}
+
+#red, #white, #rose {
+  display: none;
+}
